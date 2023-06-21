@@ -5,7 +5,7 @@ body {
 /* header part */
 
 header {
-  background-color: orange;
+  background-color: rgb(255, 89, 29);
   justify-content: space-around;
   height: 100px;
   align-items: center;
@@ -26,14 +26,22 @@ header {
 
 li {
   list-style: none;
+  padding: 10px;
 }
 
 a {
-  font-style: none;
+  text-decoration: none;
+  color: white;
 }
 
 .logo {
-  height: 50px;
+  height: 30px;
+  width: 50%;
+  text-align: center;
+}
+
+.header-link {
+  width: 25%;
 }
 
 /* Main part */
