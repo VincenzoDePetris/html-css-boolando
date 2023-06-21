@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: orange;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  font-style: none;
+}
+
+.logo {
+  height: 50px;
+}
