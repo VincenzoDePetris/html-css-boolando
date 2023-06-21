@@ -2,11 +2,14 @@ body {
   margin: 0;
 }
 
+/* header part */
+
 header {
   background-color: orange;
   justify-content: space-around;
   height: 100px;
   align-items: center;
+  color: white;
 }
 
 .fixed {
@@ -14,6 +17,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 1;
 }
 
 .flex {
@@ -30,4 +34,123 @@ a {
 
 .logo {
   height: 50px;
+}
+
+/* Main part */
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+.main {
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 700px;
+  width: 300px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.img-div {
+  height: 70%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img1-div {
+  background-image: url(../img/1.webp);
+}
+
+.img2-div {
+  background-image: url(../img/2.webp);
+}
+
+.img3-div {
+  background-image: url(../img/3.webp);
+}
+
+.img4-div {
+  background-image: url(../img/4.webp);
+}
+
+.img5-div {
+  background-image: url(../img/5.webp);
+}
+
+.img6-div {
+  background-image: url(../img/6.webp);
+}
+
+.sale {
+  color: red;
+  margin-right: 10px;
+}
+
+.first-price {
+  text-decoration: line-through;
+  color: white;
+}
+
+.red-sale {
+  background-color: red;
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  padding: 0.5rem;
+}
+
+.green-sale {
+  background-color: green;
+  padding: 0.5rem;
+  position: absolute;
+  bottom: 10%;
+  left: 50px;
+}
+
+.relative {
+  position: relative;
+}
+
+img {
+  max-height: 100%;
+}
+
+.hearts {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  background-color: white;
+  padding: 5px;
+}
+
+.img-div:hover {
+  background-image: url(../img/1b.webp);
+}
+
+.img-div:hover .hearts {
+  color: red;
+}
+
+.img2-div:hover {
+  background-image: url(../img/2b.webp);
+}
+
+.img3-div:hover {
+  background-image: url(../img/3b.webp);
+}
+
+.img4-div:hover {
+  background-image: url(../img/4b.webp);
+}
+
+.img5-div:hover {
+  background-image: url(../img/5b.webp);
+}
+
+.img6-div:hover {
+  background-image: url(../img/6b.webp);
 }
