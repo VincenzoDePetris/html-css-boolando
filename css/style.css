@@ -10,6 +10,7 @@ header {
   height: 100px;
   align-items: center;
   color: white;
+  padding: 10px;
 }
 
 .fixed {
@@ -24,6 +25,10 @@ header {
   display: flex;
 }
 
+ul {
+  padding: 0;
+}
+
 li {
   list-style: none;
   padding: 10px;
@@ -36,12 +41,7 @@ a {
 
 .logo {
   height: 30px;
-  width: 50%;
   text-align: center;
-}
-
-.header-link {
-  width: 25%;
 }
 
 /* Main part */
@@ -100,7 +100,6 @@ main {
 
 .first-price {
   text-decoration: line-through;
-  color: white;
 }
 
 .red-sale {
@@ -133,13 +132,14 @@ img {
   right: 0;
   background-color: white;
   padding: 5px;
+  cursor: pointer;
 }
 
 .img-div:hover {
   background-image: url(../img/1b.webp);
 }
 
-.img-div:hover .hearts {
+.hearts:hover {
   color: red;
 }
 
